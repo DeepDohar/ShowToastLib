@@ -67,7 +67,7 @@ dependencies {
              create<MavenPublication>("maven") {
                  groupId = "com.github.DeepDohar"
                  artifactId = "ShowToastLib"
-                 version = "1.0"
+                 version = "2.0.0"
 
                  from(components["release"])
              }
