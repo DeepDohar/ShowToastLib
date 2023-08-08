@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ShowToastLib"
 include(":app")
- 
+include(":showMsgLib")
