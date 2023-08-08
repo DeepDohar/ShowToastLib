@@ -64,14 +64,12 @@ dependencies {
 
      publishing {
          publications {
-             register<MavenPublication>("release") {
+             create<MavenPublication>("maven") {
                  groupId = "com.github.DeepDohar"
                  artifactId = "ShowToastLib"
-                 version = "1.0.0"
+                 version = "1.0"
 
-                 afterEvaluate {
-                     from(components["release"])
-                 }
+                 from(components["release"])
              }
          }
      }
